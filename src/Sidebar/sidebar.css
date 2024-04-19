@@ -1,0 +1,64 @@
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid white;
+  }
+  .sidebar a,
+  .dropdown-btn {
+    padding: 6px 8px 6px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-weight: bolder;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .sidebar a:hover,
+  .dropdown-btn:hover {
+    color: #f1f1f1;
+    padding-left: +10px;
+    transition: 0.15s;
+    background-color: rgba(255, 0, 0, 0.1);
+  }
+  .main {
+    margin-left: 160px;
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  .active {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: white;
+  }
+  .dropdown-container {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding-left: 8px;
+  }
+  .sub-container {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding-left: 24px;
+  }
+  .fa-caret-down {
+    float: right;
+    padding-right: 4px;
+  }
+  .header {
+    margin-left: 300px; 
+    color: red;
+    text-align: left;
+    margin-top: -10px;
+    font-size: 30px;
+  }
