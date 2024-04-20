@@ -1,10 +1,17 @@
 import React from "react";
 import "./sidebar.css";
 import {SidebarButton} from "./sidebarbutton";
+import {Helmet} from "react-helmet";
 
 export function Sidebar() {
 	return (
 		<div className="sidebar">
+			<Helmet>
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
+			</Helmet>
 			<SidebarButton name="Challenges">
 				<div className="dropdown-container">
 					<a href="nuzlocke.html">Nuzlocke</a>
