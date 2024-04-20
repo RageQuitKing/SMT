@@ -14,7 +14,7 @@ export function Sidebar() {
 			</SidebarButton>
 			<SidebarButton name="Maps">
 				<div className="dropdown-container">
-					<a href="/Medical_Center.html">Shinjuku Medical Center</a>
+					<a href="Medical_Center.html">Shinjuku Medical Center</a>
 					<a href="sample.html">Yoyogi Park West</a>
 					<a href="/Shibuya.html">Shibuya</a>
 					<SidebarButton name="Amala Network">
@@ -25,6 +25,7 @@ export function Sidebar() {
 						</div>
 					</SidebarButton>
 					<a href="sample.html">Ginza</a>
+					<a href="sample.html">Harumi Warehouse</a>
 					<a href="sample.html">Great Underpass of Ginza</a>
 					<a href="sample.html">Ikebukuro</a>
 					<a href="sample.html">Mantra Headquarters</a>
@@ -42,6 +43,7 @@ export function Sidebar() {
 					<a href="sample.html">The Obelisk</a>
 					<SidebarButton name="Amala Temple">
 						<div className="dropdown-container">
+							<a href="sample.html">Courtyard</a>
 							<a href="sample.html">Black Temple</a>
 							<a href="sample.html">Red Temple</a>
 							<a href="sample.html">White Temple</a>
@@ -183,10 +185,16 @@ export function Sidebar() {
 							<a href="sample.html">Mitra</a>
 						</div>
 					</SidebarButton>
-					<a href="sample.html" style={{color: "red"}}>
+					<a
+						href="sample.html"
+						style={{color: "red", backgroundColor: "rgba(0,0,0,0.25)"}}
+					>
 						Beelzebub
 					</a>
-					<a href="sample.html" style={{color: "white"}}>
+					<a
+						href="sample.html"
+						style={{color: "white", backgroundColor: "rgba(255,255,255,0.25)"}}
+					>
 						Metatron
 					</a>
 					<SidebarButton name="In Bandou Shrine">

@@ -4,7 +4,6 @@ import "./sidebar.css";
 type SidebarButtonProps = {
 	name: string;
 };
-//export function SidebarButton(name: string,props: PropsWithChildren) {
 export function SidebarButton(props: PropsWithChildren<SidebarButtonProps>) {
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -17,6 +16,7 @@ export function SidebarButton(props: PropsWithChildren<SidebarButtonProps>) {
 				}}
 			>
 				{props.name}
+				<i className="fa fa-caret-down"></i>
 			</button>
 			{isOpen && props.children}
 		</div>
