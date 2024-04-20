@@ -16,14 +16,35 @@ export function Sidebar() {
 			</Helmet>
 			<SidebarButton name="Challenges">
 				<div className="dropdown-container">
-					<a href="sample.html">Nuzlocke</a>
-					<a href="sample.html">Demonless</a>
-					<a href="sample.html">Fiendless</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Nuzlocke
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Demonless
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Fiendless
+					</button>
 				</div>
 			</SidebarButton>
 			<SidebarButton name="Maps">
 				<div className="dropdown-container">
-					{/* <a href="/SMT/MedicalCenter">Shinjuku Medical Center</a> */}
+					{/* <a href="/SMT/MedicalCenter">Shinjuku Medical Center</button> */}
 					<button
 						onClick={() => {
 							navigate("/SMT/MedicalCenter");
@@ -32,217 +53,952 @@ export function Sidebar() {
 					>
 						Shinjuku Medical Center
 					</button>
-					<a href="sample.html">Yoyogi Park West</a>
-					<a href="sample.html">Shibuya</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Yoyogi Park West
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Shibuya
+					</button>
 					<SidebarButton name="Amala Network">
 						<div className="dropdown-container">
-							<a href="sample.html">Amala Network 1</a>
-							<a href="sample.html">Amala Network 2</a>
-							<a href="sample.html">Amala Network 3</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Amala Network 1
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Amala Network 2
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Amala Network 3
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html">Ginza</a>
-					<a href="sample.html">Harumi Warehouse</a>
-					<a href="sample.html">Great Underpass of Ginza</a>
-					<a href="sample.html">Ikebukuro</a>
-					<a href="sample.html">Mantra Headquarters</a>
-					<a href="sample.html">Assembly of Nihilo</a>
-					<a href="sample.html">Kabukicho Prison</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Ginza
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Harumi Warehouse
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Great Underpass of Ginza
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Ikebukuro
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Mantra Headquarters
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Assembly of Nihilo
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Kabukicho Prison
+					</button>
 					<SidebarButton name="Metro Stations">
 						<div className="dropdown-container">
-							<a href="sample.html">Ikebukuro Tunnel</a>
-							<a href="sample.html">Asakusa Station</a>
-							<a href="sample.html">Yurakucho Station</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ikebukuro Tunnel
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Asakusa Station
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Yurakucho Station
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html">Asakusa</a>
-					<a href="sample.html">Nihilo 2</a>
-					<a href="sample.html">The Obelisk</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Asakusa
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Nihilo 2
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						The Obelisk
+					</button>
 					<SidebarButton name="Amala Temple">
 						<div className="dropdown-container">
-							<a href="sample.html">Courtyard</a>
-							<a href="sample.html">Black Temple</a>
-							<a href="sample.html">Red Temple</a>
-							<a href="sample.html">White Temple</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Courtyard
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Black Temple
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Red Temple
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								White Temple
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html">Yoyogi Park East</a>
-					<a href="sample.html">Mifunashiro</a>
-					<a href="sample.html">Diet Building</a>
-					<a href="sample.html">Tower of Kagutsuchi</a>
-					<a href="sample.html">Bandou Shrine</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Yoyogi Park East
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Mifunashiro
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Diet Building
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Tower of Kagutsuchi
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Bandou Shrine
+					</button>
 					<SidebarButton name="Labyrinth of Amala">
 						<div className="dropdown-container">
-							<a href="sample.html">First Kalpa</a>
-							<a href="sample.html">Second Kalpa</a>
-							<a href="sample.html">Third Kalpa</a>
-							<a href="sample.html">Fourth Kalpa</a>
-							<a href="sample.html">Fifth Kalpa</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								First Kalpa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Second Kalpa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Third Kalpa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Fourth Kalpa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Fifth Kalpa
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="Overworld">
 						<div className="dropdown-container">
-							<a href="sample.html">Shibuya</a>
-							<a href="sample.html">Ginza</a>
-							<a href="sample.html">Ikebukuro</a>
-							<a href="sample.html">Kabukicho</a>
-							<a href="sample.html">Asakusa</a>
-							<a href="sample.html">The Obelisk</a>
-							<a href="sample.html">Amala Temple</a>
-							<a href="sample.html">Diet Building</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Shibuya
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ginza
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ikebukuro
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Kabukicho
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Asakusa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								The Obelisk
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Amala Temple
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Diet Building
+							</button>
 						</div>
 					</SidebarButton>
 				</div>
 			</SidebarButton>
 			<SidebarButton name="Items">
 				<div className="dropdown-container">
-					<a href="sample.html">Healing</a>
-					<a href="sample.html">Stat Boost</a>
-					<a href="sample.html">Damage</a>
-					<a href="sample.html">Utility</a>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Healing
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Stat Boost
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Damage
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Utility
+					</button>
 				</div>
 			</SidebarButton>
 			<SidebarButton name="Bosses">
 				<div className="dropdown-container">
-					<a href="sample.html">Forneus</a>
-					<a href="sample.html">Phantom</a>
-					<a href="sample.html">Troll</a>
-					<a href="sample.html" style={{color: "red"}}>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Forneus
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Phantom
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Troll
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Matador
-					</a>
+					</button>
 					<SidebarButton name="In Mantra Headquarters">
 						<div className="dropdown-container">
-							<a href="sample.html">Orthrus</a>
-							<a href="sample.html">Yaksini</a>
-							<a href="sample.html">Thor</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Orthrus
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Yaksini
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Thor
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="Dante">
 						<div className="dropdown-container">
-							<a href="sample.html">Ikebukuro</a>
-							<a href="sample.html">Third Kalpa</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ikebukuro
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Third Kalpa
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="In Assembly of Nihilo">
 						<div className="dropdown-container">
-							<a href="sample.html">Eligor</a>
-							<a href="sample.html">Berith</a>
-							<a href="sample.html">Kaiwan</a>
-							<a href="sample.html">Ose</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Eligor
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Berith
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Kaiwan
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ose
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html" style={{color: "red"}}>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Daisoujou
-					</a>
-					<a href="sample.html" style={{color: "red"}}>
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Hell Biker
-					</a>
-					<a href="sample.html" style={{color: "red"}}>
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Red Rider
-					</a>
-					<a href="sample.html">Mizuchi</a>
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Mizuchi
+					</button>
 					<SidebarButton name="In Ikebukuro Tunnels">
 						<div className="dropdown-container">
-							<a href="sample.html">Suuki</a>
-							<a href="sample.html">Fuuki</a>
-							<a href="sample.html">Kinki</a>
-							<a href="sample.html">Ongyoki</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Suuki
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Fuuki
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Kinki
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ongyoki
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html" style={{color: "red"}}>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						White Rider
-					</a>
+					</button>
 					<SidebarButton name="In the Obelisk">
 						<div className="dropdown-container">
-							<a href="sample.html">Clotho</a>
-							<a href="sample.html">Lachesis</a>
-							<a href="sample.html">Atropos</a>
-							<a href="sample.html">All</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Clotho
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Lachesis
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Atropos
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								All
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html">Black Frost</a>
-					<a href="sample.html">Mara</a>
-					<a href="sample.html" style={{color: "red"}}>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Black Frost
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Mara
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Black Rider
-					</a>
-					<a href="sample.html" style={{color: "red"}}>
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Pale Rider
-					</a>
+					</button>
 					<SidebarButton name="In Yoyogi Park">
 						<div className="dropdown-container">
-							<a href="sample.html">Girimekhala</a>
-							<a href="sample.html">Sakahagi</a>
-							<a href="sample.html" style={{color: "red"}}>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Girimekhala
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Sakahagi
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
 								Mother Harlot
-							</a>
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="In Amala Temple">
 						<div className="dropdown-container">
-							<a href="sample.html">Aciel</a>
-							<a href="sample.html">Skadi</a>
-							<a href="sample.html">Albion</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Aciel
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Skadi
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Albion
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="In Mifunashiro">
 						<div className="dropdown-container">
-							<a href="sample.html">Futomimi</a>
-							<a href="sample.html">Archangels</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Futomimi
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Archangels
+							</button>
 						</div>
 					</SidebarButton>
-					<a href="sample.html">Bishamonten</a>
-					<a href="sample.html" style={{color: "red"}}>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
+						Bishamonten
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
+					>
 						Trumpeter
-					</a>
+					</button>
 					<SidebarButton name="In Diet Building">
 						<div className="dropdown-container">
-							<a href="sample.html">Surt</a>
-							<a href="sample.html">Mada</a>
-							<a href="sample.html">Mot</a>
-							<a href="sample.html">Mitra</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Surt
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Mada
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Mot
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Mitra
+							</button>
 						</div>
 					</SidebarButton>
-					<a
-						href="sample.html"
-						style={{color: "red", backgroundColor: "rgba(0,0,0,0.25)"}}
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
 					>
 						Beelzebub
-					</a>
-					<a
-						href="sample.html"
-						style={{color: "white", backgroundColor: "rgba(255,255,255,0.25)"}}
+					</button>
+					<button
+						onClick={() => {
+							navigate("/SMT");
+						}}
+						className="nav-button"
 					>
 						Metatron
-					</a>
+					</button>
 					<SidebarButton name="In Bandou Shrine">
 						<div className="dropdown-container">
-							<a href="sample.html">Bishamonten</a>
-							<a href="sample.html">Jikokuten</a>
-							<a href="sample.html">Koumokuten</a>
-							<a href="sample.html">Zouchouten</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Bishamonten
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Jikokuten
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Koumokuten
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Zouchouten
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="In Tower of Kagutsuchi">
 						<div className="dropdown-container">
-							<a href="sample.html">Noah</a>
-							<a href="sample.html">Ahriman</a>
-							<a href="sample.html">Thor</a>
-							<a href="sample.html">Baal Avatar</a>
-							<a href="sample.html">Kagutsuchi</a>
-							<a href="sample.html">Lucifer</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Noah
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Ahriman
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Thor
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Baal Avatar
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Kagutsuchi
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Lucifer
+							</button>
 						</div>
 					</SidebarButton>
 					<SidebarButton name="Side Bosses">
 						<div className="dropdown-container">
-							<a href="sample.html">Nekomata</a>
-							<a href="sample.html">Succubus</a>
-							<a href="sample.html">Titan</a>
-							<a href="sample.html">Legion</a>
-							<a href="sample.html">Cerberus</a>
-							<a href="sample.html">Loa</a>
-							<a href="sample.html">Abbadon</a>
-							<a href="sample.html">Rangda</a>
-							<a href="sample.html">Shadow</a>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Nekomata
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Succubus
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Titan
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Legion
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Cerberus
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Loa
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Abbadon
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Rangda
+							</button>
+							<button
+								onClick={() => {
+									navigate("/SMT");
+								}}
+								className="nav-button"
+							>
+								Shadow
+							</button>
 						</div>
 					</SidebarButton>
 				</div>
