@@ -14,16 +14,16 @@ export function Sidebar() {
 			</Helmet>
 			<SidebarButton name="Challenges">
 				<div className="dropdown-container">
-					<a href="nuzlocke.html">Nuzlocke</a>
+					<a href="sample.html">Nuzlocke</a>
 					<a href="sample.html">Demonless</a>
 					<a href="sample.html">Fiendless</a>
 				</div>
 			</SidebarButton>
 			<SidebarButton name="Maps">
 				<div className="dropdown-container">
-					<a href="Medical_Center.html">Shinjuku Medical Center</a>
+					<a href="/SMT/MedicalCenter">Shinjuku Medical Center</a>
 					<a href="sample.html">Yoyogi Park West</a>
-					<a href="/Shibuya.html">Shibuya</a>
+					<a href="sample.html">Shibuya</a>
 					<SidebarButton name="Amala Network">
 						<div className="dropdown-container">
 							<a href="sample.html">Amala Network 1</a>
