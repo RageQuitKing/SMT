@@ -11,7 +11,8 @@
     border: 1px solid white;
   }
   .sidebar a,
-  .dropdown-btn {
+  .dropdown-btn,
+  .nav-button {
     padding: 6px 8px 6px 4px;
     text-decoration: none;
     font-size: 14px;
@@ -27,7 +28,8 @@
     font-family: "Courier New", Courier, monospace;
   }
   .sidebar a:hover,
-  .dropdown-btn:hover {
+  .dropdown-btn:hover,
+  .nav-button:hover {
     color: #f1f1f1;
     padding-left: +10px;
     transition: 0.15s;

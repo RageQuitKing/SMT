@@ -2,8 +2,10 @@ import React from "react";
 import "./sidebar.css";
 import {SidebarButton} from "./sidebarbutton";
 import {Helmet} from "react-helmet";
+import {useNavigate} from "react-router-dom";
 
 export function Sidebar() {
+	const navigate = useNavigate();
 	return (
 		<div className="sidebar">
 			<Helmet>
@@ -21,7 +23,15 @@ export function Sidebar() {
 			</SidebarButton>
 			<SidebarButton name="Maps">
 				<div className="dropdown-container">
-					<a href="/SMT/MedicalCenter">Shinjuku Medical Center</a>
+					{/* <a href="/SMT/MedicalCenter">Shinjuku Medical Center</a> */}
+					<button
+						onClick={() => {
+							navigate("/SMT/MedicalCenter");
+						}}
+						className="nav-button"
+					>
+						Shinjuku Medical Center
+					</button>
 					<a href="sample.html">Yoyogi Park West</a>
 					<a href="sample.html">Shibuya</a>
 					<SidebarButton name="Amala Network">
