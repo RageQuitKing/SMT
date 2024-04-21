@@ -1,10 +1,10 @@
-import {Sidebar} from "../Sidebar/sidebar";
 import React from "react";
+import Page from "../page";
 
 export default function Root() {
 	return (
 		<>
-			<Sidebar></Sidebar>
+			<Page></Page>
 		</>
 	);
 }

@@ -2,10 +2,15 @@ import React from "react";
 import "./sidebar.css";
 import {SidebarButton} from "./sidebarbutton";
 import {Helmet} from "react-helmet";
-import {useNavigate} from "react-router-dom";
+import {NavButton} from "./navButton";
 
-export function Sidebar() {
-	const navigate = useNavigate();
+export function Sidebar({
+	sidebarState,
+	setSidebarState,
+}: {
+	sidebarState: Map<string, boolean>;
+	setSidebarState: (newMapState: Map<string, boolean>) => void;
+}) {
 	return (
 		<div className="sidebar">
 			<Helmet>
@@ -14,991 +19,509 @@ export function Sidebar() {
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 				/>
 			</Helmet>
-			<SidebarButton name="Challenges">
+			<SidebarButton
+				sidebarState={sidebarState}
+				setSidebarState={setSidebarState}
+				name="Challenges"
+			>
 				<div className="dropdown-container">
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Nuzlocke
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Demonless
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Fiendless
-					</button>
+					</NavButton>
 				</div>
 			</SidebarButton>
-			<SidebarButton name="Maps">
+			<SidebarButton
+				name="Maps"
+				sidebarState={sidebarState}
+				setSidebarState={setSidebarState}
+			>
 				<div className="dropdown-container">
-					{/* <a href="/SMT/MedicalCenter">Shinjuku Medical Center</button> */}
-					<button
-						onClick={() => {
-							navigate("/SMT/MedicalCenter");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT/MedicalCenter"}>
 						Shinjuku Medical Center
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Yoyogi Park West
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Shibuya
-					</button>
-					<SidebarButton name="Amala Network">
+					</NavButton>
+					<SidebarButton
+						name="Amala Network"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Amala Network 1
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Amala Network 2
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Amala Network 3
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Ginza
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Harumi Warehouse
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Great Underpass of Ginza
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Ikebukuro
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Mantra Headquarters
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Assembly of Nihilo
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Kabukicho Prison
-					</button>
-					<SidebarButton name="Metro Stations">
+					</NavButton>
+					<SidebarButton
+						name="Metro Stations"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ikebukuro Tunnel
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Asakusa Station
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Yurakucho Station
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Asakusa
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Nihilo 2
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						The Obelisk
-					</button>
-					<SidebarButton name="Amala Temple">
+					</NavButton>
+					<SidebarButton
+						name="Amala Temple"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Courtyard
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Black Temple
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Red Temple
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								White Temple
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Yoyogi Park East
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Mifunashiro
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Diet Building
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Tower of Kagutsuchi
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Bandou Shrine
-					</button>
-					<SidebarButton name="Labyrinth of Amala">
+					</NavButton>
+					<SidebarButton
+						name="Labyrinth of Amala"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								First Kalpa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Second Kalpa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Third Kalpa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Fourth Kalpa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Fifth Kalpa
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="Overworld">
+					<SidebarButton
+						name="Overworld"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Shibuya
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ginza
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ikebukuro
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Kabukicho
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Asakusa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								The Obelisk
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Amala Temple
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Diet Building
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
 				</div>
 			</SidebarButton>
-			<SidebarButton name="Items">
+			<SidebarButton
+				name="Items"
+				sidebarState={sidebarState}
+				setSidebarState={setSidebarState}
+			>
 				<div className="dropdown-container">
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Healing
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Stat Boost
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Damage
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Utility
-					</button>
+					</NavButton>
 				</div>
 			</SidebarButton>
-			<SidebarButton name="Bosses">
+			<SidebarButton
+				name="Bosses"
+				sidebarState={sidebarState}
+				setSidebarState={setSidebarState}
+			>
 				<div className="dropdown-container">
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Forneus
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Phantom
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Troll
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Matador
-					</button>
-					<SidebarButton name="In Mantra Headquarters">
+					</NavButton>
+					<SidebarButton
+						name="In Mantra Headquarters"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Orthrus
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Yaksini
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Thor
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="Dante">
+					<SidebarButton
+						name="Dante"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ikebukuro
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Third Kalpa
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="In Assembly of Nihilo">
+					<SidebarButton
+						name="In Assembly of Nihilo"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Eligor
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Berith
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Kaiwan
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ose
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Daisoujou
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Hell Biker
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Red Rider
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Mizuchi
-					</button>
-					<SidebarButton name="In Ikebukuro Tunnels">
+					</NavButton>
+					<SidebarButton
+						name="In Ikebukuro Tunnels"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Suuki
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Fuuki
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Kinki
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ongyoki
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						White Rider
-					</button>
-					<SidebarButton name="In the Obelisk">
+					</NavButton>
+					<SidebarButton
+						name="In the Obelisk"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Clotho
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Lachesis
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Atropos
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								All
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Black Frost
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Mara
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Black Rider
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Pale Rider
-					</button>
-					<SidebarButton name="In Yoyogi Park">
+					</NavButton>
+					<SidebarButton
+						name="In Yoyogi Park"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Girimekhala
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Sakahagi
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Mother Harlot
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="In Amala Temple">
+					<SidebarButton
+						name="In Amala Temple"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Aciel
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Skadi
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Albion
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="In Mifunashiro">
+					<SidebarButton
+						name="In Mifunashiro"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Futomimi
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Archangels
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Bishamonten
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Trumpeter
-					</button>
-					<SidebarButton name="In Diet Building">
+					</NavButton>
+					<SidebarButton
+						name="In Diet Building"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Surt
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Mada
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Mot
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Mitra
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Beelzebub
-					</button>
-					<button
-						onClick={() => {
-							navigate("/SMT");
-						}}
-						className="nav-button"
-					>
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Metatron
-					</button>
-					<SidebarButton name="In Bandou Shrine">
+					</NavButton>
+					<SidebarButton
+						name="In Bandou Shrine"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Bishamonten
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Jikokuten
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Koumokuten
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Zouchouten
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="In Tower of Kagutsuchi">
+					<SidebarButton
+						name="In Tower of Kagutsuchi"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Noah
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Ahriman
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Thor
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Baal Avatar
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Kagutsuchi
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Lucifer
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
-					<SidebarButton name="Side Bosses">
+					<SidebarButton
+						name="Side Bosses"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
 						<div className="dropdown-container">
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Nekomata
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Succubus
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Titan
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Legion
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Cerberus
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Loa
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Abbadon
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Rangda
-							</button>
-							<button
-								onClick={() => {
-									navigate("/SMT");
-								}}
-								className="nav-button"
-							>
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
 								Shadow
-							</button>
+							</NavButton>
 						</div>
 					</SidebarButton>
 				</div>
