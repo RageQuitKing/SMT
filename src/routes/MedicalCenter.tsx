@@ -1,13 +1,13 @@
 import React from "react";
 import "./MedicalCenter.css";
-import F1 from "../assets/MedicalCenter/F1.svg";
-import B1 from "../assets/MedicalCenter/B1.svg";
-import F2 from "../assets/MedicalCenter/F2.svg";
+// import F1 from "../assets/MedicalCenter/F1.svg";
+// import B1 from "../assets/MedicalCenter/B1.svg";
+// import F2 from "../assets/MedicalCenter/F2.svg";
 import Page from "../page";
 export default function MedicalCenter() {
 	return (
 		<Page>
-			<p>Medical Center</p>
+			{/* <p>Medical Center</p>
 			<img src={B1} alt="Medical Center B1" className="medical-center" />
 			<img src={F1} alt="Medical Center F1" className="medical-center" />
 			<img src={F2} alt="Medical Center F2" className="medical-center" />
@@ -60,7 +60,7 @@ export default function MedicalCenter() {
 					<td>500</td>
 					<td>200</td>
 				</tr>
-			</table>
+			</table> */}
 		</Page>
 	);
 }
