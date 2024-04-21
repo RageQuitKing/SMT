@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import {createMemoryRouter, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Root from "./routes/root";
 import MedicalCenter from "./routes/MedicalCenter";
 
-const router = createMemoryRouter([
+const router = createBrowserRouter([
 	{
 		path: "/SMT",
 		element: <Root />,
