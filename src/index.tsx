@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Root from "./routes/root";
 import MedicalCenter from "./routes/MedicalCenter";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: "/SMT",
 		element: <Root />,
