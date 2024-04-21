@@ -14,6 +14,10 @@ export function Sidebar({
 	return (
 		<div className="sidebar">
 			<Helmet>
+				<meta
+					httpEquiv="Content-Security-Policy"
+					content="default-src 'self';img-src data: https: http:;script-src 'self' 'unsafe-inline';style-src 'self' 'unsafe-inline'; "
+				/>
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
