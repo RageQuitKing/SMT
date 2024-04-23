@@ -1,65 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-    <path d="M 300 0 l 0 300 M 0 150 l 600 0 M 0.5 0.5 l 599 0 l 0 299 l -599 0 z" fill="none" stroke="green"
-        opacity="0" />
-    <!--
-	Elevator
-	-->
-    <path d="M 416 113 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3e311e" stroke-width="1" />
-    <path d="M 416 113 m 7 6 l 6 0 l 0 1 l -5 0 l 0 2 l 4 0 l 0 1 l -4 0 l 0 3 l 5 0 l 0 1 l -6 0 z" fill="#f5efae"
-        stroke="#f5efae" stroke-width="0.1" />
-    <!--Entrance Side Fill-->
-    <path d="
-	M 401 135  l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
-	
-	M 401 165 l 0 75 l -15 0 l 0 -15 l -139 0 l 0 -15 l 139 0 l 0 -45 z
-	
-	M 451 165 l 0 75 l 15 0 l 0 -75 z
-	
-	M 306 120 l 30 0 l 0 30 l -30 0 z
-	
-	M 306 105 l 30 0 l 0 -30 l -30 0 z
-	
-	M 516 105 l 30 0 l 0 -30 l -30 0 z
-	
-	M 516 120 l 30 0 l 0 30 l -30 0 z
-	
-	M 499 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
-	
-	M 334 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z" stroke="none" fill="#101010" />
-    <!-- Annex Side Fill-->
+<svg xmlns="http://www.w3.org/2000/svg" width="600px" height="400px">
+	<style>
+		.area {
+			fill: #101010;
+		}
 
-    <path d="M 149 135 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
-	
-	M 247 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
-	
-	M 84 150 l -30 0 l 0 -30 l 30 0 z
-	
-	M 84 105 l -30 0 l 0 -30 l 30 0 z
-	
-	M 264 75 l 30 0 l 0 30 l -30 0 z
-	
-	M 264 120 l 30 0 l 0 30 l -30 0 z
-	
-	M 149 165 l 0 75 l -15 0 l 0 -75 z
-	
-	M 199 165 l 15 0 l 0 45 l -15 0 l 47 0 l 0 15 l -33 0 l 0 15 l -15 0 z" stroke="none" fill="#101010" />
-    <!--
-	stairs
-	-->
-    <path d="M 416 113 
+		.area:hover {
+			fill: #303030;
+			transition: fill 0.2s;
+		}
+
+		.area:active {
+			fill: crimson;
+			transition: fill .3s;
+		}
+	</style>
+	<!--Elevator-->
+	<path d="M 416 113 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3e311e" stroke-width="1" />
+	<path d="M 416 113 m 7 6 l 6 0 l 0 1 l -5 0 l 0 2 l 4 0 l 0 1 l -4 0 l 0 3 l 5 0 l 0 1 l -6 0 z" fill="#f5efae"
+		stroke="#f5efae" stroke-width="0.1" />
+	<!--Entrance Side Fill-->
+	<path d="
+	M 401 135 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z" class="area" />
+	<!-- Hallway to Annex Bridge- Main Side-->
+	<path d=" M 401 165 l 0 75 l -15 0 l 0 -15 l -37 0 l 0 -15 l 37 0 l 0 -45 z" class="area" />
+	<!--Annex Bridge-->
+	<path d="M 247 210 l 102 0 l 0 15 l -102 0 z" class="area" />
+	<!--Hallway Right Side Main Lobby-->
+	<path d="M 451 165 l 0 75 l 15 0 l 0 -75 z" class="area" />
+	<!--Southwest of four rooms, main side-->
+	<path d="M 306 120 l 30 0 l 0 30 l -30 0 z" class="area" />
+	<!--Northwest of four rooms, main side-->
+	<path d="M 306 105 l 30 0 l 0 -30 l -30 0 z" class="area" />
+	<!--northeast of four rooms, main side-->
+	<path d="M 516 105 l 30 0 l 0 -30 l -30 0 z" class="area" />
+	<!--Southeast of four rooms, main side-->
+	<path d=" M 516 120 l 30 0 l 0 30 l -30 0 z" class="area" />
+	<!--Right most stairs-->
+	<path d="M 499 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z" class="area" />
+	<!--Center Stairs-->
+	<path d="M 334 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z" stroke="none" class="area" />
+	<!---->
+	<!---->
+	<!---->
+	<!-- Annex Side Main-->
+	<path d="M 149 135 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z"
+		class="area" />
+	<!--Annex Side Stairs-->
+	<path d="M 247 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z" class="area" />
+	<!--Annex Side Southwest room-->
+	<path d="M 84 150 l -30 0 l 0 -30 l 30 0 z" class="area" />
+	<!--Annex Side Noethwest room-->
+	<path d="M 84 105 l -30 0 l 0 -30 l 30 0 z" class="area" />
+	<!--Annex Side Northeast room-->
+	<path d="M 264 75 l 30 0 l 0 30 l -30 0 z" class="area" />
+	<!--Annex Side Southeast Room-->
+	<path d="M 264 120 l 30 0 l 0 30 l -30 0 z" class="area" />
+	<!--Hallway Left Side Annex Lobby-->
+	<path d="M 149 165 l 0 75 l -15 0 l 0 -75 z" class="area" />
+	<!--Hallway to Annex Bridge - Annex Side-->
+	<path d="M 199 165 l 15 0 l 0 45 l -15 0 l 47 0 l 0 15 l -33 0 l 0 15 l -15 0 z" stroke="none" class="area" />
+	<!--stairs-->
+	<path d="M 416 113 
 	
 	m 83 -71 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0
 	
 	m -175 -6 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0
 	
 	m -97 -6 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0" fill="none" stroke="#8e989d" stroke-width="1" />
-    <!--
-	doors
-	-->
-    <path d="M 416 113
+	<!--doors-->
+	<path d="M 416 113
 	
 	m 4.5 23.5 l 11 0" fill="none" stroke="white" stroke-width="2.5" />
-    <path d="	
+	<path d="	
 	M 338 60 l 11 0
 	M 503 60 l 11 0
 	M 251 60 l 11 0
@@ -77,41 +89,22 @@
 	m 54 0 l 11 0
 	m -217 47 l 0 11
 	m 102 -11 l 0 11" fill="none" stroke="white" stroke-width="5" />
-    <path d="M 416 113 
-	
-	m -15 22 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
-	
-	m 0 30 l 0 75 l -15 0 l 0 -15 l -172 0 l 0 15 l -15 0 l 0 -75 l 15 0 l 0 45 l 172 0 l 0 -45 z
-	
-	m 50 0 l 0 75 l 15 0 l 0 -75 z
-	
-	m -302 -30 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
-	
-	m 0 30 l 0 75 l -15 0 l 0 -75 z
-	
-	m -65 -15 l -30 0 l 0 -30 l 30 0 z
-	
-	m -30 -45 l 0 -30 l 30 0 l 0 30 z
-	
-	m 210 -30 l 30 0 l 0 30 l -30 0 z
-	
-	m 0 45 l 30 0 l 0 30 l -30 0 z
-	
-	m 42 0 l 30 0 l 0 30 l -30 0 z
-	
-	m 0 -15 l 30 0 l 0 -30 l -30 0 z
-	
-	m 210 0 l 30 0 l 0 -30 l -30 0 z
-	
-	m 0 15 l 30 0 l 0 30 l -30 0 z
-	
-	m -17 -60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
-	
-	m -165 0 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
-	
-	m -87 0 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
-	
-	m 0 150 l 0 15
-	
-	m 102 0 l 0 -15" fill="none" stroke="#8e989d" stroke-width="1" />
+	<path d="M 416 113 
+		m -15 22 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
+		m 0 30 l 0 75 l -15 0 l 0 -15 l -172 0 l 0 15 l -15 0 l 0 -75 l 15 0 l 0 45 l 172 0 l 0 -45 z
+		m 50 0 l 0 75 l 15 0 l 0 -75 z
+		m -302 -30 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
+		m 0 30 l 0 75 l -15 0 l 0 -75 z
+		m -65 -15 l -30 0 l 0 -30 l 30 0 z
+		m -30 -45 l 0 -30 l 30 0 l 0 30 z
+		m 210 -30 l 30 0 l 0 30 l -30 0 z
+		m 0 45 l 30 0 l 0 30 l -30 0 z
+		m 42 0 l 30 0 l 0 30 l -30 0 z
+		m 0 -15 l 30 0 l 0 -30 l -30 0 z
+		m 210 0 l 30 0 l 0 -30 l -30 0 z
+		m 0 15 l 30 0 l 0 30 l -30 0 z
+		m -17 -60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
+		m -165 0 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
+		m -87 0 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
+		m 0 150 l 0 15 m 102 0 l 0 -15" fill="none" stroke="#8e989d" stroke-width="1" />
 </svg>
