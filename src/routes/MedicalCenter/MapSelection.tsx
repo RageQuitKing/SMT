@@ -3,7 +3,7 @@ import "./MedicalCenter.css";
 
 export default function MedicalCenterMapSelection() {
 	return (
-		<div className="dropdown-container">
+		<div className="map-container">
 			<p>Map Selection</p>
 			<button>Second Floor</button>
 			<button>First Floor</button>
