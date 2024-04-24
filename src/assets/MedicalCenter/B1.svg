@@ -1,43 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-    <!--DEBUG LINES TO BE REMOVED-->
-    <path d="
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+        <!--DEBUG LINES TO BE REMOVED-->
+        <path d="
             M 300 0 l 0 400 
             M 0 200 l 600 0 
             M 0.5 0.5 l 599 0 l 0 399 l -599 0 z
             M 145 65 l 8 0
             M 311 290 l 37.5 0 l 0 -50 l -7.5 0 l 15 0" fill="none" stroke="green" opacity="0" />
-    <!--Fill In-->
-    <path d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z
-            
-            M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z
-            
-            M 284 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z
-            
-            M 144 90 l 30 0 l 0 -30 l -30 0 z
-            
-            M 289 330 l 30 0 l 0 -30 l -30 0 z
-            
-            M 379 330 l 30 0 l 0 -30 l -30 0 z
-            
-            M 221.5 235 l 30 0 l 0 -30 l -30 0 z
-            
-            M 166.5 235 l 30 0 l 0 -30 l -30 0 z
-            
-            M 54.5 235 l 30 0 l 0 -30 l -30 0 z
-            
-            M 166.5 173 l 30 0 l 0 -30 l -30 0 z
-            
-            M 136.5 255 l 0 15
-            
-            M 151 255 l 15 0
-            
-            M 246 255 l 0 15" fill="#101010" stroke="none" opacity="1" />
-    <!--1 Sided Doors-->
-    <path d="
+        <!--Fill In-->
+        <path d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z"
+                className="area" />
+
+        M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z
+
+        M 284 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z
+
+        M 144 90 l 30 0 l 0 -30 l -30 0 z
+
+        M 289 330 l 30 0 l 0 -30 l -30 0 z
+
+        M 379 330 l 30 0 l 0 -30 l -30 0 z
+
+        M 221.5 235 l 30 0 l 0 -30 l -30 0 z
+
+        M 166.5 235 l 30 0 l 0 -30 l -30 0 z
+
+        M 54.5 235 l 30 0 l 0 -30 l -30 0 z
+
+        M 166.5 173 l 30 0 l 0 -30 l -30 0 z
+
+        M 136.5 255 l 0 15
+
+        M 151 255 l 15 0
+
+        M 246 255 l 0 15" fill="#101010" stroke="none" opacity="1" />
+        <!--1 Sided Doors-->
+        <path d="
             M 343.5 226.5 l 11 0
             M 421 136.5 l 11 0" fill="none" stroke="white" stroke-width="2.5" />
-    <!--2 Sided Doors-->
-    <path d="
+        <!--2 Sided Doors-->
+        <path d="
             M 54 152 l 0 11
             M 84.5 214 l 0 11
             M 136.5 257 l 0 11
@@ -51,26 +52,25 @@
             M 153.5 90 l 11 0
             M 298.5 300 l 11 0
             M 388.5 300 l 11 0" fill="none" stroke="white" stroke-width="5" />
-    <!--Elevator-->
-    <path d="M 416 113 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3e311e" stroke-width="1" />
-    <path d="M 416 113 m 7 6 l 6 0 l 0 1 l -5 0 l 0 2 l 4 0 l 0 1 l -4 0 l 0 3 l 5 0 l 0 1 l -6 0 z" fill="#f5efae"
-        stroke="#f5efae" stroke-width="0.1" />
-    <!--arrow pointing up-->
-    <path d="M 155 65 m 4 0 l 4 8 l -8 0 m 0 2 l 8 0 l 0 -2 l -8 0 z" fill="#f5efae" stroke="black"
-        stroke-width="0.5" />
-    <!--Fountain of Life-->
-    <path d="M 384 305 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3f7066" stroke-width="1" />
-    <ellipse cx="394" cy="315" rx="8" ry="6" fill="#c2e8e9" />
-    <ellipse cx="394" cy="314.8" rx="7" ry="5" fill="#0e1110" />
-    <ellipse cx="394" cy="314.8" rx="6" ry="4.6" fill="#c2e8e9" />
-    <ellipse cx="394" cy="313.7" rx="4.6" ry="3.6" fill="#0e1110" />
-    <!--Terminal-->
-    <path d="M 339 203 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3f7066" stroke-width="1" />
-    <path
-        d="M 339 203 m 10 3 l 3 1.5 l 0 9 l 1 1 l 0 3 l -1.5 0 l 0 -2.5 l -1.75 0 l 0 2.5 l -1.5 0 l 0 -2.5 l -1.75 0 l 0 2.5 l -1.5 0 l 0 -3 l 1 -1 l 0 -9 z"
-        fill="#c2e8e9" stroke="#c2e8e9" stroke-width=".1" />
-    <!--Outline-->
-    <path d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z
+        <!--Elevator-->
+        <path d="M 416 113 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3e311e" stroke-width="1" />
+        <path d="M 416 113 m 7 6 l 6 0 l 0 1 l -5 0 l 0 2 l 4 0 l 0 1 l -4 0 l 0 3 l 5 0 l 0 1 l -6 0 z" fill="#f5efae"
+                stroke="#f5efae" stroke-width="0.1" />
+        <!--arrow pointing up-->
+        <path d="M 155 65 m 4 0 l 4 8 l -8 0 m 0 2 l 8 0 l 0 -2 l -8 0 z" fill="#f5efae" stroke="black"
+                stroke-width="0.5" />
+        <!--Fountain of Life-->
+        <path d="M 384 305 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3f7066" stroke-width="1" />
+        <ellipse cx="394" cy="315" rx="8" ry="6" fill="#c2e8e9" />
+        <ellipse cx="394" cy="314.8" rx="7" ry="5" fill="#0e1110" />
+        <ellipse cx="394" cy="314.8" rx="6" ry="4.6" fill="#c2e8e9" />
+        <ellipse cx="394" cy="313.7" rx="4.6" ry="3.6" fill="#0e1110" />
+        <!--Terminal-->
+        <path d="M 339 203 l 20 0 l 0 20 l -20 0 z" fill="#0e1110" stroke="#3f7066" stroke-width="1" />
+        <path d="M 339 203 m 10 3 l 3 1.5 l 0 9 l 1 1 l 0 3 l -1.5 0 l 0 -2.5 l -1.75 0 l 0 2.5 l -1.5 0 l 0 -2.5 l -1.75 0 l 0 2.5 l -1.5 0 l 0 -3 l 1 -1 l 0 -9 z"
+                fill="#c2e8e9" stroke="#c2e8e9" stroke-width=".1" />
+        <!--Outline-->
+        <path d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z
             
             M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z
             
@@ -95,10 +95,10 @@
             M 151 255 l 15 0
             
             M 246 255 l 0 15" fill="none" stroke="#8e989d" stroke-width="1" />
-    <!--Stairs-->
-    <path d="
+        <!--Stairs-->
+        <path d="
             M 34 147 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10
             
             M 296 157 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10" fill="none" stroke="#8e989d"
-        stroke-width="1" />
+                stroke-width="1" />
 </svg>
