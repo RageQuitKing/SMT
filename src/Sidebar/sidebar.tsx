@@ -233,7 +233,7 @@ export function Sidebar({
 				setSidebarState={setSidebarState}
 			>
 				<div className="dropdown-container">
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/Forneus"}>
 						Forneus
 					</NavButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT"}>
@@ -449,7 +449,7 @@ export function Sidebar({
 						setSidebarState={setSidebarState}
 					>
 						<div className="dropdown-container">
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/Bishamonten2"}>
 								Bishamonten
 							</NavButton>
 							<NavButton sidebarState={sidebarState} path={"/SMT"}>

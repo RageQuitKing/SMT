@@ -1,0 +1,61 @@
+.bosspanel {
+    position: absolute;
+    left: 245px;
+    top: 2px;
+    color: white;
+    text-align: left;
+    background-color: #000022;
+    letter-spacing: 3px;
+    width: 700px;
+    user-select: none;
+}
+
+.bossname {
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.stats {
+    width: 20 40 auto;
+}
+.statnames, .statnumbers {
+    text-align: right;
+}
+.skillsname {
+    position: inherit;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+.skills, .affinities {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.skills td:hover {
+    background-color: red;
+}
+
+.hpmp{
+    margin: 0;
+    background-color: red;
+    width: 120px;
+    text-align: inherit;
+}
+.weak {
+    color: green;
+}
+.void {
+    color: red;
+}
+.drain {
+    color: yellow;
+}
+.repel {
+    color: orange;
+}

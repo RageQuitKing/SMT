@@ -1,59 +1,3 @@
-      body {
-        background-color: black;
-      }
-    table,
-      th {
-        margin-left: 600px;
-        color: white;
-        border: 1px solid white;
-        border-collapse: collapse;
-        background-color: gray;
-      }
-      .area1 {
-        background-color: violet;
-        color: black;
-        fill: violet;
-      }
-      .area2 {
-        background-color: indigo;
-        color: white;
-        fill:indigo;
-      }
-      .area3 {
-        background-color: blue;
-        color: white;
-        fill: blue;
-      }
-      .area4 {
-        background-color: green;
-        color: white;
-        fill: green;
-      }
-      .area5 {
-        background-color: yellow;
-        color: black;
-        fill: yellow;
-      }
-      .area6 {
-        background-color: orange;
-        color: black;
-        fill: orange;
-      }
-      .areaboss {
-        background-color: red;
-      color: black;
-      fill: red;
-      }
-      .fiend {
-        color: red;
-      }
-      .medical-center {
-        position: absolute;
-        width: 600px;
-        height: 400px;
-        left: 300px;
-        top: 300px;
-      }
       .area {
         fill: #101010;
     }
@@ -71,7 +15,7 @@
     .vector {
         position: absolute;
         left: 750px;
-        height: 400px;
+        height: 399px;
         width: 600px;
         top: 320px;
         scale: 2;
