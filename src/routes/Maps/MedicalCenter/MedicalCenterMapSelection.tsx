@@ -1,5 +1,5 @@
 import React from "react";
-import "./MedicalCenter.css";
+import "../MapSelection/MapSelection.css";
 
 export default function MedicalCenterMapSelection() {
 	return (

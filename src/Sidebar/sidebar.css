@@ -9,6 +9,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     border: 1px solid white;
+    scrollbar-width: none;
   }
   .sidebar a,
   .dropdown-btn,

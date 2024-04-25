@@ -526,6 +526,89 @@ export function Sidebar({
 					</SidebarButton>
 				</div>
 			</SidebarButton>
+			<SidebarButton
+				name="Magatama"
+				sidebarState={sidebarState}
+				setSidebarState={setSidebarState}
+			>
+				<div className="dropdown-container">
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Marogareh
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Wadatsumi
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Ankh
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Iyomante
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Shiranui
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Hifumi
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Kamudo
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Narukami
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Anathema
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Miasma
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Nirvana
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Murakumo
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Geis
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Djed
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Muspell
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Gehenna
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						kamurogi
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Satan
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Adama
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Vimana
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Gundari
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Sophia
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Gaea
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Kailash
+					</NavButton>
+					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+						Masakados
+					</NavButton>
+				</div>
+			</SidebarButton>
 		</div>
 	);
 }

@@ -1,19 +1,19 @@
 import React from "react";
 import "./MedicalCenter.css";
-import Page from "../../page";
-import MedicalCenterF1 from "./maps/F2";
-import MedicalCenterF2 from "./maps/F1";
+import Page from "../../../page";
+import MedicalCenterF1 from "./maps/F1";
+import MedicalCenterF2 from "./maps/F2";
 import MedicalCenterB1 from "./maps/B1";
-import MedicalCenterMapSelection from "./MapSelection";
+import MedicalCenterMapSelection from "./MedicalCenterMapSelection";
 export default function MedicalCenter() {
 	return (
 		<Page>
 			<p>Medical Center</p>
 			<MedicalCenterMapSelection />
 			<MedicalCenterB1 />
-			<MedicalCenterF2 />
 			<MedicalCenterF1 />
-			<table>
+			<MedicalCenterF2 />
+			{/* <table>
 				<tr className="">
 					<th>Demon</th>
 					<th>Level</th>
@@ -62,7 +62,7 @@ export default function MedicalCenter() {
 					<td>500</td>
 					<td>200</td>
 				</tr>
-			</table>
+			</table> */}
 		</Page>
 	);
 }

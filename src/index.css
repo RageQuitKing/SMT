@@ -9,3 +9,8 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+* {
+	scrollbar-width: 1px;
+	scroll-behavior: smooth;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "../MedicalCenter.css";
 export default function MedicalCenterF2() {
 	return (
-		<svg className="victor">
+		<svg className="vector">
 			<path d="M 416 113 l 20 0 l 0 20 l -20 0 z" className="elevator1"></path>
 			<path
 				d="M 416 113 m 7 6 l 6 0 l 0 1 l -5 0 l 0 2 l 4 0 l 0 1 l -4 0 l 0 3 l 5 0 l 0 1 l -6 0 z"

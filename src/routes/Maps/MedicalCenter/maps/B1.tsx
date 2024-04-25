@@ -2,7 +2,7 @@ import React from "react";
 import "../MedicalCenter.css";
 export default function MedicalCenterB1() {
 	return (
-		<svg className="voctor">
+		<svg className="vector">
 			{/* <!--Fill In--> */}
 			<path
 				d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -50 0 l 0 -15 l 95 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z"
@@ -22,7 +22,7 @@ export default function MedicalCenterB1() {
 				className="area"
 			/>
 			<path
-				d="M 284 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z"
+				d="M 294 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z"
 				className="area"
 			/>
 			<path d="M 144 90 l 30 0 l 0 -30 l -30 0 z" className="area" />
@@ -86,7 +86,7 @@ export default function MedicalCenterB1() {
             
             M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z
             
-            M 284 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z
+            M 294 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z
             
             M 144 90 l 30 0 l 0 -30 l -30 0 z
             
@@ -114,7 +114,7 @@ export default function MedicalCenterB1() {
 				d="
             M 34 147 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10
             
-            M 296 157 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10"
+            M 306 157 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10 m 2 -10 l 0 10"
 				className="stairs"
 			/>
 		</svg>
