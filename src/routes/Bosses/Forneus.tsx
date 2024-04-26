@@ -4,21 +4,26 @@ import "./bosses.css";
 export default function Forneus() {
 	return (
 		<Page>
+			<div className="pagebackground" />
 			<div className="bosspanel">
 				<p className="bossname">Forneus</p>
 				<div>
 					<table>
 						<tr>
-							<td>LV:</td>
+							<td className="statnames">LV:</td>
 							<td>8</td>
 						</tr>
 						<tr>
-							<td>HP:</td>
-							<td>500</td>
+							<td className="statnames">HP:</td>
+							<td className="statnumbers">500</td>
 						</tr>
 						<tr>
-							<td>MP:</td>
-							<td>300</td>
+							<td className="statnames">MP:</td>
+							<td className="statnumbers">300</td>
+						</tr>
+						<tr>
+							<td className="statnames">Turns:</td>
+							<td>1</td>
 						</tr>
 					</table>
 				</div>
@@ -46,7 +51,7 @@ export default function Forneus() {
 						<td>-</td>
 					</tr>
 				</table>
-				<table className="stats">
+				<table>
 					<tr>
 						<td className="statnames">ST</td>
 						<td className="statnumbers">9</td>
@@ -58,7 +63,7 @@ export default function Forneus() {
 						<td className="statbars">█████████</td>
 					</tr>
 					<tr>
-						<td className="statnames">EN</td>
+						<td className="statnames">VI</td>
 						<td className="statnumbers">6</td>
 						<td className="statbars">██████</td>
 					</tr>

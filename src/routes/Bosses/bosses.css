@@ -1,13 +1,19 @@
+.pagebackground {
+    position: absolute;
+width: 100%;
+height: 100%;
+background: radial-gradient(rgb(44, 42, 70), rgb(0, 0, 0));
+overflow: hidden;
+}
 .bosspanel {
     position: absolute;
     left: 245px;
-    top: 2px;
     color: white;
     text-align: left;
-    background-color: #000022;
     letter-spacing: 3px;
     width: 700px;
     user-select: none;
+    border: 1px solid white;
 }
 
 .bossname {
@@ -17,11 +23,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.stats {
-    width: 20 40 auto;
-}
 .statnames, .statnumbers {
     text-align: right;
+}
+.statbars {
+    width: 575px;
+    color: rgb(177, 90, 96);
 }
 .skillsname {
     position: inherit;
@@ -30,13 +37,20 @@
     text-align: center;
     text-transform: uppercase;
     font-size: large;
+    letter-spacing: 1px;
 }
 .skills, .affinities {
     width: 100%;
     padding: 0;
     text-align: center;
+    letter-spacing: 1px;
 }
-
+.skills td {
+    width: 33%;
+}
+.affinities td {
+    width: 11%;
+}
 .skills td:hover {
     background-color: red;
 }

@@ -236,9 +236,23 @@ export function Sidebar({
 					<NavButton sidebarState={sidebarState} path={"/SMT/Forneus"}>
 						Forneus
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
-						Phantom
-					</NavButton>
+					<SidebarButton
+						name="Specter"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
+						<div className="dropdown-container">
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+								Amala Network 1
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+								Amala Network 2
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+								Amala Network 3
+							</NavButton>
+						</div>
+					</SidebarButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Troll
 					</NavButton>
@@ -452,13 +466,13 @@ export function Sidebar({
 							<NavButton sidebarState={sidebarState} path={"/SMT/Bishamonten2"}>
 								Bishamonten
 							</NavButton>
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/Jikokuten"}>
 								Jikokuten
 							</NavButton>
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/Komokuten"}>
 								Koumokuten
 							</NavButton>
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/Zouchouten"}>
 								Zouchouten
 							</NavButton>
 						</div>

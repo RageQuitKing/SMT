@@ -1,12 +1,12 @@
 import React from "react";
 import Page from "../../page";
 import "./bosses.css";
-export default function BishamontenBandou() {
+export default function Jikokuten() {
 	return (
 		<Page>
 			<div className="pagebackground" />
 			<div className="bosspanel">
-				<p className="bossname">Bishamonten</p>
+				<p className="bossname">Jikokuten</p>
 				<div>
 					<table>
 						<tr>
@@ -41,8 +41,8 @@ export default function BishamontenBandou() {
 					</tr>
 					<tr>
 						<td>-</td>
-						<td className="repel">RPL</td>
 						<td className="weak">WK</td>
+						<td className="repel">RPL</td>
 						<td>-</td>
 						<td>-</td>
 						<td className="void">VOID</td>
@@ -82,22 +82,27 @@ export default function BishamontenBandou() {
 					<p className="skillsname">Skills</p>
 					<table className="skills">
 						<tr>
+							<td>Beast Eye</td>
 							<td>Dragon Eye</td>
+							<td>Bufudyne</td>
+						</tr>
+						<tr>
+							<td>Mabufudyne</td>
+							<td>Glacial Blast</td>
+							<td>Megidolaon</td>
+						</tr>
+						<tr>
 							<td>Tarukaja</td>
 							<td>Makakaja</td>
+							<td>Rakukaja</td>
 						</tr>
 						<tr>
-							<td>Megidolaon</td>
-							<td>Prominence</td>
-							<td>Maragidyne</td>
+							<td>Tarunda</td>
+							<td>Rakunda</td>
+							<td>Tetrakarn</td>
 						</tr>
 						<tr>
-							<td>Hellfire</td>
-							<td>Tempest</td>
-							<td>Dekaja</td>
-						</tr>
-						<tr>
-							<td>Debilitate</td>
+							<td>Focus</td>
 						</tr>
 					</table>
 				</div>
