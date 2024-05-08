@@ -68,19 +68,19 @@ export function Sidebar({
 					<NavButton sidebarState={sidebarState} path={"/SMT/Ginza"}>
 						Ginza
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/Harumi"}>
 						Harumi Warehouse
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/GreatUnderpass"}>
 						Great Underpass of Ginza
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/Ikebukuro"}>
 						Ikebukuro
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/MantraHeadquarters"}>
 						Mantra Headquarters
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/AssemblyOfNihilo"}>
 						Assembly of Nihilo
 					</NavButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT"}>
