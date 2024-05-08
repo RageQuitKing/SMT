@@ -1,5 +1,5 @@
 import React from "react";
-import "../MedicalCenter.css";
+import "../../zMapFramework/MapPages.css";
 export default function MedicalCenterB1() {
 	return (
 		<svg className="vector">

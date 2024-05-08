@@ -1,5 +1,5 @@
 import React from "react";
-import "./MedicalCenter.css";
+import "../MapFramework/MapPages.css";
 import Page from "../../../page";
 import MedicalCenterF1 from "./maps/F1";
 import MedicalCenterF2 from "./maps/F2";

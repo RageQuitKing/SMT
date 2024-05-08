@@ -45,10 +45,10 @@ export function Sidebar({
 					<NavButton sidebarState={sidebarState} path={"/SMT/MedicalCenter"}>
 						Shinjuku Medical Center
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
-						Yoyogi Park West
+					<NavButton sidebarState={sidebarState} path={"/SMT/YoyogiPark"}>
+						Yoyogi Park
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/Shibuya"}>
 						Shibuya
 					</NavButton>
 					<SidebarButton
@@ -57,18 +57,15 @@ export function Sidebar({
 						setSidebarState={setSidebarState}
 					>
 						<div className="dropdown-container">
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/AmalaNetwork1"}>
 								Amala Network 1
 							</NavButton>
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton sidebarState={sidebarState} path={"/SMT/AmalaNetwork2"}>
 								Amala Network 2
-							</NavButton>
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
-								Amala Network 3
 							</NavButton>
 						</div>
 					</SidebarButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/Ginza"}>
 						Ginza
 					</NavButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT"}>
@@ -135,9 +132,6 @@ export function Sidebar({
 							</NavButton>
 						</div>
 					</SidebarButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
-						Yoyogi Park East
-					</NavButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT"}>
 						Mifunashiro
 					</NavButton>

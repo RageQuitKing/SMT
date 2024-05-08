@@ -1,13 +1,13 @@
 import React from "react";
-import "../MapSelection/MapPages.css";
+import "../zMapFramework/MapSelection.css";
 
 export default function MedicalCenterMapSelection() {
 	return (
 		<div className="map-container">
 			<p>Map Selection</p>
-			<button>2F</button>
-			<button>1F</button>
-			<button>Underground Facility</button>
+			<button>Hachiko Intersection</button>
+			<button>B1</button>
+			<button>B2</button>
 		</div>
 	);
 }

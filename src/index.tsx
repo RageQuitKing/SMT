@@ -9,6 +9,11 @@ import BishamontenBandou from "./routes/Bosses/bandou_bishamonten";
 import Jikokuten from "./routes/Bosses/Jikokuten";
 import Komokuten from "./routes/Bosses/Komokuten";
 import Zouchouten from "./routes/Bosses/Zouchouten";
+import YoyogiPark from "./routes/Maps/YoyogiPark/YoyogiPark";
+import Shibuya from "./routes/Maps/Shibuya/Shibuya";
+import AmalaNetwork1 from "./routes/Maps/AmalaNetwork1/AmalaNetwork1";
+import AmalaNetwork2 from "./routes/Maps/AmalaNetwork2/AmalaNetwork2";
+import Ginza from "./routes/Maps/Ginza/Ginza";
 
 const router = createBrowserRouter([
 	{
@@ -38,6 +43,26 @@ const router = createBrowserRouter([
 	{
 		path: "/SMT/Zouchouten",
 		element: <Zouchouten />,
+	},
+	{
+		path: "/SMT/YoyogiPark",
+		element: <YoyogiPark />,
+	},
+	{
+		path: "/SMT/Shibuya",
+		element: <Shibuya />,
+	},
+	{
+		path: "/SMT/AmalaNetwork1",
+		element: <AmalaNetwork1 />,
+	},
+	{
+		path: "/SMT/AmalaNetwork2",
+		element: <AmalaNetwork2 />,
+	},
+	{
+		path: "/SMT/Ginza",
+		element: <Ginza />,
 	},
 ]);
 
