@@ -86,7 +86,7 @@ const router = createBrowserRouter([
 		element: <MantraHeadquarters />,
 	},
 	{
-		path: "./SMT/AssemblyOfNihilo",
+		path: "/SMT/AssemblyOfNihilo",
 		element: <AssemblyOfNihilo />,
 	},
 ]);
