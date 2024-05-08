@@ -40,14 +40,23 @@ export default function BishamontenBandou() {
 						<td>Nerve</td>
 					</tr>
 					<tr>
+						{/* phys */}
 						<td>-</td>
+						{/* fire */}
 						<td className="repel">RPL</td>
+						{/* Ice */}
 						<td className="weak">WK</td>
+						{/* Force */}
 						<td>-</td>
+						{/* Elec */}
 						<td>-</td>
+						{/* Expel */}
 						<td className="void">VOID</td>
+						{/* Death */}
 						<td className="void">VOID</td>
+						{/* Mind */}
 						<td className="void">VOID</td>
+						{/* Nerve */}
 						<td className="void">VOID</td>
 					</tr>
 				</table>

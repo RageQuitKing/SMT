@@ -1,5 +1,5 @@
 import React from "react";
-import "../MapFramework/MapPages.css";
+import "../zMapFramework/MapPages.css";
 import Page from "../../../page";
 import MedicalCenterF1 from "./maps/F1";
 import MedicalCenterF2 from "./maps/F2";

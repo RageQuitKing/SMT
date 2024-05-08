@@ -1,5 +1,5 @@
 import React from "react";
-import "../MapSelection/MapSelection.css";
+import "../zMapFramework/MapSelection.css";
 
 export default function AmalaNetwork1MapSelection() {
 	return (
