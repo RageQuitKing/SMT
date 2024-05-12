@@ -1,0 +1,30 @@
+.table-viewer {
+	position: fixed;
+	right: 0;
+	top: 0;
+	color: white;
+	width: 18%;
+	max-height: 100%;
+	height: fit-content;
+	border: 1px solid white;
+	user-select: none;
+	background-color: black;
+}
+
+.table-viewer h1 {
+	text-transform: uppercase;
+}
+
+.table-viewer table,
+th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+.table-viewer p {
+	margin-left: 5%;
+}
+
+.selectable {
+	user-select: all;
+}

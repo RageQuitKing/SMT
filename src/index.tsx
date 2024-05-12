@@ -12,13 +12,15 @@ import Zouchouten from "./routes/Bosses/Zouchouten";
 import YoyogiPark from "./routes/Maps/02_YoyogiPark/YoyogiPark";
 import Shibuya from "./routes/Maps/03_Shibuya/Shibuya";
 import AmalaNetwork1 from "./routes/Maps/04_AmalaNetwork1/AmalaNetwork1";
-import AmalaNetwork2 from "./routes/Maps/AmalaNetwork2/AmalaNetwork2";
+import AmalaNetwork2 from "./routes/Maps/16_AmalaNetwork2/AmalaNetwork2";
 import Ginza from "./routes/Maps/05_Ginza/Ginza";
 import HarumiWarehouse from "./routes/Maps/06_HarumiWarehouse/HarumiWarehouse";
 import GreatUnderpass from "./routes/Maps/07_GreatUnderpass/GreatUnderpass";
 import Ikebukuro from "./routes/Maps/08_Ikebukuro/Ikebukuro";
 import MantraHeadquarters from "./routes/Maps/09_MantraHeadquarters/MantraHeadquarters";
 import AssemblyOfNihilo from "./routes/Maps/10_AssemblyOfNihilo/AssemblyOfNihilo";
+import KabukichoPrison from "./routes/Maps/11_KabukichoPrison/KabukichoPrison";
+import FirstKalpa from "./routes/Maps/26_LabyrinthOfAmala/26.1_FirstKalpa/FirstKalpa";
 
 const router = createBrowserRouter([
 	{
@@ -88,6 +90,14 @@ const router = createBrowserRouter([
 	{
 		path: "/SMT/AssemblyOfNihilo",
 		element: <AssemblyOfNihilo />,
+	},
+	{
+		path: "/SMT/KabukichoPrison",
+		element: <KabukichoPrison />,
+	},
+	{
+		path: "/SMT/LabyrinthOfAmala/FirstKalpa",
+		element: <FirstKalpa />,
 	},
 ]);
 

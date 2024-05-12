@@ -1,6 +1,10 @@
 import React from "react";
 import "../../zMapFramework/MapPages.css";
-export default function MedicalCenterF2() {
+export default function MedicalCenterF2({
+	setSelectedRoom,
+}: {
+	setSelectedRoom: (newSelection: number) => void;
+}) {
 	return (
 		<svg className="vector">
 			<path d="M 416 113 l 20 0 l 0 20 l -20 0 z" className="elevator1"></path>

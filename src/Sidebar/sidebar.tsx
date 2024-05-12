@@ -83,7 +83,7 @@ export function Sidebar({
 					<NavButton sidebarState={sidebarState} path={"/SMT/AssemblyOfNihilo"}>
 						Assembly of Nihilo
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT"}>
+					<NavButton sidebarState={sidebarState} path={"/SMT/KabukichoPrison"}>
 						Kabukicho Prison
 					</NavButton>
 					<SidebarButton
@@ -150,7 +150,10 @@ export function Sidebar({
 						setSidebarState={setSidebarState}
 					>
 						<div className="dropdown-container">
-							<NavButton sidebarState={sidebarState} path={"/SMT"}>
+							<NavButton
+								sidebarState={sidebarState}
+								path={"/SMT/LabyrinthOfAmala/FirstKalpa"}
+							>
 								First Kalpa
 							</NavButton>
 							<NavButton sidebarState={sidebarState} path={"/SMT"}>
