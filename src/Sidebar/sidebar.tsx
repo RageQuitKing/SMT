@@ -45,9 +45,23 @@ export function Sidebar({
 					<NavButton sidebarState={sidebarState} path={"/SMT/MedicalCenter"}>
 						Shinjuku Medical Center
 					</NavButton>
-					<NavButton sidebarState={sidebarState} path={"/SMT/YoyogiPark"}>
+					<SidebarButton
+						name="Yoyogi Park"
+						sidebarState={sidebarState}
+						setSidebarState={setSidebarState}
+					>
+						<div className="dropdown-container">
+							<NavButton sidebarState={sidebarState} path={"/SMT/YoyogiPark"}>
+								East
+							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT/YoyogiPark"}>
+								West
+							</NavButton>
+						</div>
+					</SidebarButton>
+					{/* <NavButton sidebarState={sidebarState} path={"/SMT/YoyogiPark"}>
 						Yoyogi Park
-					</NavButton>
+					</NavButton> */}
 					<NavButton sidebarState={sidebarState} path={"/SMT/Shibuya"}>
 						Shibuya
 					</NavButton>

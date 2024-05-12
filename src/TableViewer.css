@@ -11,20 +11,84 @@
 	background-color: black;
 }
 
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.roomname {
+	text-align: center;
+}
+
 .table-viewer h1 {
 	text-transform: uppercase;
 }
 
-.table-viewer table,
-th,
-td {
-	border: 1px solid white;
-	border-collapse: collapse;
+.itemtable {
+	width: 100%;
+	margin-left: -20px;
+	text-align: left;
 }
-.table-viewer p {
-	margin-left: 5%;
+.items {
+	width: 30%;
 }
 
-.selectable {
-	user-select: all;
+.qty {
+	width: 10%;
+}
+
+.from {
+	width: 60%;
+}
+
+.itemtable,
+.itemtable th,
+.itemtable td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.demontable {
+	width: 100%;
+	margin-left: -20px;
+	text-align: left;
+}
+.demontable,
+.demontable th,
+.demontable td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.spirittable {
+	width: 100%;
+	margin-left: -20px;
+	text-align: left;
+}
+.spirittable,
+.spirittable th,
+.spirittable td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.thirtyonep {
+	width: 31%;
+}
+
+.spiritdialogue {
+	border: none;
+	border-color: white;
+	border-collapse: collapse;
+}
+
+.spiritdialogue th {
+	text-wrap: nowrap;
+}
+
+.magatama {
+	background-color: rgba(255, 168, 168, 0.5);
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../zMapFramework/MapPages.css";
+import "../../zMapFramework/MapPages.css";
 
 export default function MedicalCenterMapSelection() {
 	return (

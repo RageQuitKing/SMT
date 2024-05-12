@@ -9,7 +9,7 @@ import BishamontenBandou from "./routes/Bosses/bandou_bishamonten";
 import Jikokuten from "./routes/Bosses/Jikokuten";
 import Komokuten from "./routes/Bosses/Komokuten";
 import Zouchouten from "./routes/Bosses/Zouchouten";
-import YoyogiPark from "./routes/Maps/02_YoyogiPark/YoyogiPark";
+import YoyogiPark from "./routes/Maps/02_YoyogiPark/YoyogiParkWest/YoyogiPark";
 import Shibuya from "./routes/Maps/03_Shibuya/Shibuya";
 import AmalaNetwork1 from "./routes/Maps/04_AmalaNetwork1/AmalaNetwork1";
 import AmalaNetwork2 from "./routes/Maps/16_AmalaNetwork2/AmalaNetwork2";

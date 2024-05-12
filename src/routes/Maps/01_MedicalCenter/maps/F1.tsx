@@ -44,7 +44,7 @@ export default function MedicalCenterF1({
 			{/*MedicalCenter1FStairwayEast*/}
 			<path
 				onClick={() => {
-					setSelectedRoom(9);
+					setSelectedRoom(7);
 				}}
 				d="M 498.5 60 l 20 0 l 0 -30 l -20 0 l 0 10 l 10 0 l 0 10 l -10 0 z"
 				className="area"
