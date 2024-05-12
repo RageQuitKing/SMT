@@ -1,6 +1,6 @@
 import React from "react";
 import "../MedicalCenter.css";
-export default function AnnexLobby() {
+export default function Annex1FLobby() {
 	return (
 		<>
 			<h1 className="roomname">Annex Lobby</h1>

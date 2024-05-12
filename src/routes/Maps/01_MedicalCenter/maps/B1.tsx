@@ -7,13 +7,14 @@ export default function MedicalCenterB1({
 }) {
 	return (
 		<svg className="vector">
-			{/* <!--Fill In--> */}
+			{/*UndergroundFacilityHallwayEast*/}
 			<path
 				d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -50 0 l 0 -15 l 95 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z"
 				className="area"
 			/>
+			{/*UndergroundFacilityHallwayCenter*/}
 			<path
-				d="M 246 255 l 0 15 l -65 0 l 0 15 l -45 0 l 0 -30 l 70 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 z"
+				d="M 246 255 l 0 15 l -65 0 l 0 15 l -45 0 l 0 -30 l 70 0 l 0 -105 l 87 0 l 0 15 l -72 0 l 0 90 z"
 				className="area"
 			/>
 			<path
@@ -55,7 +56,7 @@ export default function MedicalCenterB1({
             M 246 257 l 0 11
             M 166.5 215 l 0 11
             M 166.5 152 l 0 11
-            M 284 152 l 0 11
+            M 294 152 l 0 11
             M 221.5 215 l 0 11
             
             M 153.5 255 l 11 0
@@ -86,7 +87,7 @@ export default function MedicalCenterB1({
 			/>
 			{/* <!--Outline--> */}
 			<path
-				d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 77 0 l 0 15 l -62 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z
+				d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -115 0 l 0 15 l -45 0 l 0 -15 l -52 0 l 0 -105 l -30.5 0 l 0 -15 l 45.5 0 l 0 105 l 52 0 l 0 -165 l 15 0 l 0 165 l 40 0 l 0 -105 l 87 0 l 0 15 l -72 0 l 0 90 l 120 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z
             
             M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z
             

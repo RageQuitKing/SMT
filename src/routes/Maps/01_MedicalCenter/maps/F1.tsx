@@ -12,47 +12,108 @@ export default function MedicalCenterF1({
 			{/*Hospital Lobby*/}
 			<path
 				onClick={() => {
-					setSelectedRoom(2);
+					setSelectedRoom(4);
 				}}
 				d="M 401 135 l 50 0 l 0 15 l 15 0 l 0 15 l -15 0 l 0 90 l -15 0 l 0 -30 l -35 0 l 0 -60 l -16 0 l 0 -15 l 16 0 z  "
 				className="area"
 			/>
-			<path d="M335.5 60 l 15 0 l 0 90 l 35 0 l 0 15 l -50 0 z" className="area" />
-			<path d="M 500.5 60 l 15 0 l 0 105 l -50 0 l 0 -15 l 35 0" className="area" />
+			{/*MedicalCenter1FHallwayWest*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(6);
+				}}
+				d="M335.5 60 l 15 0 l 0 90 l 35 0 l 0 15 l -50 0 z"
+				className="area"
+			/>
+			{/*MedicalCenter1FHallwayEast*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(5);
+				}}
+				d="M 500.5 60 l 15 0 l 0 105 l -50 0 l 0 -15 l 35 0"
+				className="area"
+			/>
+			{/*MedicalCenter1FStairwayWest*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(8);
+				}}
 				d="M 333.5 60 l 20 0 l 0 -30 l -20 0 l 0 10 l 10 0 l 0 10 l -10 0 z"
 				className="area"
 			/>
+			{/*MedicalCenter1FStairwayEast*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(9);
+				}}
 				d="M 498.5 60 l 20 0 l 0 -30 l -20 0 l 0 10 l 10 0 l 0 10 l -10 0 z"
 				className="area"
 			/>
-			<path d="M 84 60 l 15 0 l 0 90 l 35 0 l 0 15 l -80 0 l 0 -15 l 30 0" className="area" />
+			{/*Annex1FHallwayWest*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(42);
+				}}
+				d="M 84 60 l 15 0 l 0 90 l 35 0 l 0 15 l -80 0 l 0 -15 l 30 0"
+				className="area"
+			/>
+			{/*Annex1FStairsNorth*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(27);
+				}}
 				d="M 247.5 60 l 20 0 l 0 -30 l -20 0 l 0 10 l 10 0 l 0 10 l -10 0 z "
 				className="area"
 			/>
-			<path d="M 294 147 l 20 0 l 0 10 l -10 0 l 0 10 l -10 0 z" className="area" />
-			<path d="M 54 147 l -10 0 l 0 10 l -10 0 l 0 10 l 20 0 z" className="area" />
+			{/*Annex1FStairsEast*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(29);
+				}}
+				d="M 294 147 l 20 0 l 0 10 l -10 0 l 0 10 l -10 0 z"
+				className="area"
+			/>
+			{/*Annex1FStairsWest*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(41);
+				}}
+				d="M 54 147 l -10 0 l 0 10 l -10 0 l 0 10 l 20 0 z"
+				className="area"
+			/>
 
 			{/*Annex Lobby*/}
 			<path
 				onClick={() => {
-					setSelectedRoom(1);
+					setSelectedRoom(44);
 				}}
 				d="M 149 135 l 50 0 l 0 15 l 15 0 l 0 15 -15 0 l 0 60 l -35 0 l 0 30 l -15 0 l 0 -90 l -15 0 l 0 -15 l 15 0 z"
 				className="area"
 			/>
-
+			{/*Annex1FHallwayEast*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(28);
+				}}
 				d="M 214 150 l 35 0 l 0 -90 l 15 0 l 0 90 l 30 0 l 0 15 l -80 0 z "
 				className="area"
 			/>
+			{/*Annex1FOutside*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(37);
+				}}
 				d="M 149 80 l 50 0 l 0 -25 l -15 0 l 0 -20 l 25 0 l 0 -15 l -70 0 l 0 15 l 25 0 l 0 20 l -15 0 z"
 				className="area"
 			/>
-			<path d="M 54 75 l 30 0 l 0 30 l -30 0 z" className="area" />
+			{/*Annex1FHealingRoom*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(43);
+				}}
+				d="M 54 75 l 30 0 l 0 30 l -30 0 z"
+				className="area"
+			/>
 			<path
 				d="M 416 113 l 20 0 l 0 20 l -20 0 z"
 				fill="#0e1110"
