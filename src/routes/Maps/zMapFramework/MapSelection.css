@@ -1,5 +1,5 @@
 .map-container {
-	position: absolute;
+	position: fixed;
 	font-size: 14px;
 	top: 0px;
 	left: 243px;

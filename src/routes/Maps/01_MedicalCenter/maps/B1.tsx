@@ -9,37 +9,108 @@ export default function MedicalCenterB1({
 		<svg className="vector">
 			{/*UndergroundFacilityHallwayEast*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(1);
+				}}
 				d="M 426 135 l 25 0 l 0 30 l -17.5 0 l 0 105 l -32 0 l 0 30 l -15 0 l 0 -30 l -75 0 l 0 30 l -15 0 l 0 -30 l -50 0 l 0 -15 l 95 0 l 0 -30 l 15 0 l 0 30 l 62 0 l 0 -90 l -17.5 0 l 0 -30 z"
 				className="area"
 			/>
 			{/*UndergroundFacilityHallwayCenter*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(31);
+				}}
 				d="M 246 255 l 0 15 l -65 0 l 0 15 l -45 0 l 0 -30 l 70 0 l 0 -105 l 87 0 l 0 15 l -72 0 l 0 90 z"
 				className="area"
 			/>
+			{/*UndergroundFacilityHallwayWest*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(38);
+				}}
 				d="M 136 270 l 0 -15 l -37 0 l 0 -105 l -45 0 l 0 15 l 30 0 l 0 105 z"
 				className="area"
 			/>
-			<path d="M 166 255 l -15 0 l 0 -165 l 15 0 z" className="area" />
+			{/*UndergroundFacilityHallwayToLadder*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(33);
+				}}
+				d="M 166 255 l -15 0 l 0 -165 l 15 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityStairsWest*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(40);
+				}}
 				d="M 54 147 l 0 20 l -10 0 l 0 -10 l -10 0 l 0 10 l -10 0 l 0 -20 z"
 				className="area"
 			/>
+			{/*UndergroundFacilityStairsEast*/}
 			<path
+				onClick={() => {
+					setSelectedRoom(30);
+				}}
 				d="M 294 147 l 0 20 l 30 0 l 0 -20 l -10 0 l 0 10 l -10 0 l 0 -10 z"
 				className="area"
 			/>
-			<path d="M 144 90 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 289 330 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 379 330 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 221.5 235 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 166.5 235 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 54.5 235 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 166.5 173 l 30 0 l 0 -30 l -30 0 z" className="area" />
-			<path d="M 136.5 255 l 0 15" className="area" />
-			<path d="M 151 255 l 15 0" className="area" />
-			<path d="M 246 255 l 0 15" fill="#101010" stroke="none" opacity="1" />
+			{/*UndergroundFacilityLadderRoom*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(36);
+				}}
+				d="M 144 90 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityBirthplace*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(3);
+				}}
+				d="M 289 330 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityHealingRoom*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(2);
+				}}
+				d="M 379 330 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityRoom1*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(32);
+				}}
+				d="M 221.5 235 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityRoom2*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(34);
+				}}
+				d="M 166.5 235 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityRoom4*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(39);
+				}}
+				d="M 54.5 235 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
+			{/*UndergroundFacilityRoom3*/}
+			<path
+				onClick={() => {
+					setSelectedRoom(35);
+				}}
+				d="M 166.5 173 l 30 0 l 0 -30 l -30 0 z"
+				className="area"
+			/>
 			{/* <!--1 Sided Doors--> */}
 			<path
 				d="
