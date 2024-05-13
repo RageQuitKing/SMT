@@ -4,6 +4,7 @@ import Page from "../../../page";
 import MedicalCenterF1 from "./maps/F1";
 import MedicalCenterF2 from "./maps/F2";
 import MedicalCenterB1 from "./maps/B1";
+import UnknownRealm from "./maps/UnknownRealm";
 import MedicalCenterMapSelection from "./MedicalCenterMapSelection";
 import TableViewer from "../../../TableViewer";
 import UndergroundFacilityHallwayEast from "./RoomInfo/UndergroundFacilityHallwayEast";
@@ -50,6 +51,9 @@ import Annex1FStairsWest from "./RoomInfo/Annex1FStairsWest";
 import Annex1FHallwayWest from "./RoomInfo/Annex1FHallwayWest";
 import Annex1FHealingRoom from "./RoomInfo/Annex1FHealingRoom";
 import Annex1FLobby from "./RoomInfo/Annex1FLobby";
+import UnknownRealm1 from "./RoomInfo/UnknownRealm1";
+import UnknownRealm2 from "./RoomInfo/UnknownRealm2";
+import UnknownRealm3 from "./RoomInfo/UnknownRealm3";
 
 const tablesMap = new Map([
 	[1, <UndergroundFacilityHallwayEast key={1} />],
@@ -96,6 +100,9 @@ const tablesMap = new Map([
 	[42, <Annex1FHallwayWest key={42} />],
 	[43, <Annex1FHealingRoom key={43} />],
 	[44, <Annex1FLobby key={44} />],
+	[45, <UnknownRealm1 key={45} />],
+	[46, <UnknownRealm2 key={46} />],
+	[47, <UnknownRealm3 key={47} />],
 ]);
 
 export default function MedicalCenter() {
@@ -109,6 +116,7 @@ export default function MedicalCenter() {
 			{selectedMap === 1 && <MedicalCenterB1 setSelectedRoom={setSelectedRoom} />}
 			{selectedMap === 2 && <MedicalCenterF1 setSelectedRoom={setSelectedRoom} />}
 			{selectedMap === 3 && <MedicalCenterF2 setSelectedRoom={setSelectedRoom} />}
+			{selectedMap === 4 && <UnknownRealm setSelectedRoom={setSelectedRoom} />}
 			<TableViewer tableIndex={selectedRoom} tablesMap={tablesMap} />
 		</Page>
 	);

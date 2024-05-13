@@ -154,7 +154,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(19);
 				}}
-				d="M 199 165 l 15 0 l 0 45 l -15 0 l 47 0 l 0 15 l -33 0 l 0 15 l -15 0 z"
+				d="M 199 165 l 15 0 l 0 45 l 33 0 l 0 15 l -33 0 l 0 15 l -15 0 z"
 				className="area"
 			/>
 			<path

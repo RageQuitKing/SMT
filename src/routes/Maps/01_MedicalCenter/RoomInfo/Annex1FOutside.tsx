@@ -25,7 +25,7 @@ export default function Annex1FOutside() {
 					<tr>
 						<td>300 Macca</td>
 						<td></td>
-						<td>Cache cuve</td>
+						<td>Cache cube</td>
 					</tr>
 				</table>
 			</ul>

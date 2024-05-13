@@ -32,6 +32,13 @@ export default function MedicalCenterMapSelection({
 			>
 				Underground Facility
 			</button>
+			<button
+				onClick={() => {
+					setSelectedMap(4);
+				}}
+			>
+				Unknown Realm
+			</button>
 		</div>
 	);
 }

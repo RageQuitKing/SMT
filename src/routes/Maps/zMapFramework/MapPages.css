@@ -1,5 +1,6 @@
 .area {
 	fill: #101010;
+	stroke: #8e989d;
 }
 
 .area:hover {
@@ -9,7 +10,8 @@
 
 .area:active {
 	fill: crimson;
-	transition: fill 0.3s;
+	transition: 0.3s;
+	stroke: white;
 }
 .area::after {
 	fill: blue;
