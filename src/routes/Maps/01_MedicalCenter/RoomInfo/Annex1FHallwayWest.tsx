@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function Annex1FHallwayWest() {
 	return (
 		<>
-			<h1 className="roomname">Annex 1F</h1>
+			<h1>Annex 1F</h1>
 			<ul>
 				<li>Items</li>
 				<table className="itemtable">
@@ -53,7 +53,7 @@ export default function Annex1FHallwayWest() {
 					</tr>
 					<tr>
 						<td>Gambler</td>
-						<td>
+						<td className="whitebackground">
 							<table className="spiritdialogue">
 								<tr>
 									<th className="thirtyonep">Progression</th>

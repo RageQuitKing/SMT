@@ -9,6 +9,12 @@
 	border: 1px solid white;
 	user-select: none;
 	background-color: black;
+	overflow-y: auto;
+	scrollbar-width: none;
+}
+
+.whitebackground {
+	background-color: white;
 }
 
 li {
@@ -16,12 +22,9 @@ li {
 	margin-bottom: 10px;
 	font-weight: bold;
 }
-.roomname {
-	text-align: center;
-}
-
 .table-viewer h1 {
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .itemtable {
@@ -30,15 +33,11 @@ li {
 	text-align: left;
 }
 .items {
-	width: 30%;
+	width: 40%;
 }
 
 .qty {
 	width: 10%;
-}
-
-.from {
-	width: 60%;
 }
 
 .itemtable,
@@ -83,6 +82,7 @@ li {
 	border: none;
 	border-color: white;
 	border-collapse: collapse;
+	background-color: black;
 }
 
 .spiritdialogue th {

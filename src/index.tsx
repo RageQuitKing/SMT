@@ -21,6 +21,7 @@ import MantraHeadquarters from "./routes/Maps/09_MantraHeadquarters/MantraHeadqu
 import AssemblyOfNihilo from "./routes/Maps/10_AssemblyOfNihilo/AssemblyOfNihilo";
 import KabukichoPrison from "./routes/Maps/11_KabukichoPrison/KabukichoPrison";
 import FirstKalpa from "./routes/Maps/26_LabyrinthOfAmala/26.1_FirstKalpa/FirstKalpa";
+import AmalaNetwork3 from "./routes/Maps/19_AmalaNetwork3/AmalaNetwork3";
 
 const router = createBrowserRouter([
 	{
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
 	{
 		path: "/SMT/AmalaNetwork2",
 		element: <AmalaNetwork2 />,
+	},
+	{
+		path: "/SMT/AmalaNetwork3",
+		element: <AmalaNetwork3 />,
 	},
 	{
 		path: "/SMT/Ginza",

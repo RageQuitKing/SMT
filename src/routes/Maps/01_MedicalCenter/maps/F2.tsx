@@ -165,32 +165,34 @@ export default function MedicalCenterF2({
 				className="stairs"
 			/>
 			<path
-				d="M 416 113
- m 4.5 23.5 l 11 0"
-				className="singledoors"
-			/>
-			<path
-				d="	
- M 338 60 l 11 0
- M 503 60 l 11 0
+				d="
+ M 420.5 136.75 l 11 0
+
+ M 338 58.25 l 11 0
+ m -11 3.5 l 11 0
+
+ M 503 58.25 l 11 0
+ m -11 3.5 l 11 0
+
  M 251 60 l 11 0
  M 84 85 l 0 11
  M 264 85 l 0 11
  M 336 85 l 0 11
  M 516 85 l 0 11
- m -432 33 l 0 11
- m 180 -11 l 0 11
- m 72 -11 l 0 11
- m 180 -11 l 0 11
- m -380 25 l 11 0
- m 54 0 l 11 0
- m 176 0 l 11 0
- m 54 0 l 11 0
- m -217 47 l 0 11
- m 102 -11 l 0 11"
+ M 84 129 l 0 11
+ M 264 129 l 0 11
+ M 336 129 l 0 11
+ M 516 129 l 0 11
+ M 136 165 l 11 0
+ M 201 165 l 11 0
+ M 388 165 l 11 0
+ M 453 165 l 11 0
+ M 247 212 l 0 11
+ M 349 212 l 0 11
+ "
 				className="singledoors"
 			/>
-			<path
+			{/* <path
 				d="M 416 113 
  m -15 22 l 50 0 l 0 15 l 50 0 l 0 -90 l 15 0 l 0 105 l -180 0 l 0 -105 l 15 0 l 0 90 l 50 0 z
  m 0 30 l 0 75 l -15 0 l 0 -15 l -172 0 l 0 15 l -15 0 l 0 -75 l 15 0 l 0 45 l 172 0 l 0 -45 z
@@ -210,7 +212,7 @@ export default function MedicalCenterF2({
  m -87 0 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z
  m 0 150 l 0 15 m 102 0 l 0 -15"
 				className="perimeter"
-			/>
+			/> */}
 		</svg>
 	);
 }

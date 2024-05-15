@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function Annex2FHallwayToBridge() {
 	return (
 		<>
-			<h1 className="roomname">Annex Lobby</h1>
+			<h1>Annex Lobby</h1>
 		</>
 	);
 }

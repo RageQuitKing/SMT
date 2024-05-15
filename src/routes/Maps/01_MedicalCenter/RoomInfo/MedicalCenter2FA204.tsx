@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function MedicalCenter2FA204() {
 	return (
 		<>
-			<h1 className="roomname">Room A204</h1>
+			<h1>Room A204</h1>
 		</>
 	);
 }

@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function Annex2FB201() {
 	return (
 		<>
-			<h1 className="roomname">Room B201</h1>
+			<h1>Room B201</h1>
 		</>
 	);
 }

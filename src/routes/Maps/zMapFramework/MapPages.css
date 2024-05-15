@@ -5,7 +5,9 @@
 
 .area:hover {
 	fill: #303030;
+	stroke: #afcace;
 	transition: fill 0.2s;
+	transition: stroke 0.2s;
 }
 
 .area:active {
@@ -16,6 +18,20 @@
 .area::after {
 	fill: blue;
 }
+
+.testing {
+	fill: white;
+	animation: pulse 1s infinite;
+}
+@keyframes pulse {
+	0% {
+		fill: #ffffff;
+	}
+	50% {
+		fill: #999999;
+	}
+}
+
 .vector {
 	position: absolute;
 	left: 750px;

@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function Annex1FHealingRoom() {
 	return (
 		<>
-			<h1 className="roomname">Healing Room</h1>
+			<h1>Healing Room</h1>
 		</>
 	);
 }

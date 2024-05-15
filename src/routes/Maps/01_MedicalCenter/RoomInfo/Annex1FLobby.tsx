@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function Annex1FLobby() {
 	return (
 		<>
-			<h1 className="roomname">Annex Lobby</h1>
+			<h1>Annex Lobby</h1>
 			<ul>
 				<li>Items</li>
 				<table className="itemtable">
@@ -15,7 +15,7 @@ export default function Annex1FLobby() {
 					<tr className="magatama">
 						<td>Wadatsumi</td>
 						<td>1</td>
-						<td>Obtained after defeating Forneus</td>
+						<td>Forneus</td>
 					</tr>
 					<tr>
 						<td>Revival Bead</td>

@@ -77,6 +77,9 @@ export function Sidebar({
 							<NavButton sidebarState={sidebarState} path={"/SMT/AmalaNetwork2"}>
 								Amala Network 2
 							</NavButton>
+							<NavButton sidebarState={sidebarState} path={"/SMT/AmalaNetwork3"}>
+								Amala Network 3
+							</NavButton>
 						</div>
 					</SidebarButton>
 					<NavButton sidebarState={sidebarState} path={"/SMT/Ginza"}>

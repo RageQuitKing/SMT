@@ -3,7 +3,7 @@ import "../MedicalCenter.css";
 export default function UndergroundFacilityLadderRoom() {
 	return (
 		<>
-			<h1 className="roomname">Underground Facility</h1>
+			<h1>Underground Facility</h1>
 		</>
 	);
 }
