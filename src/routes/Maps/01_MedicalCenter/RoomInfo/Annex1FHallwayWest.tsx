@@ -28,21 +28,18 @@ export default function Annex1FHallwayWest() {
 						<th>Level</th>
 						<th>HP</th>
 						<th>MP</th>
-						<th>Quirks</th>
 					</tr>
 					<tr>
 						<td>Hua Po</td>
 						<td>6</td>
 						<td>40</td>
 						<td>20</td>
-						<td>None</td>
 					</tr>
 					<tr>
 						<td>Shikigami</td>
 						<td>6</td>
 						<td>50</td>
 						<td>30</td>
-						<td>None</td>
 					</tr>
 				</table>
 				<li>Spirits</li>
@@ -61,18 +58,11 @@ export default function Annex1FHallwayWest() {
 								</tr>
 								<tr>
 									<td>First Encounter</td>
-									<td>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Obcaecati, dolor.
-									</td>
+									<td></td>
 								</tr>
 								<tr>
 									<td>After Forneus is defeated</td>
-									<td>
-										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-										Qui non consequuntur praesentium voluptate. Cum quis
-										possimus at provident laudantium est.
-									</td>
+									<td></td>
 								</tr>
 							</table>
 						</td>

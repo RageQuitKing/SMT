@@ -17,6 +17,14 @@
 	background-color: white;
 }
 
+.event {
+	background-color: navy;
+}
+
+p {
+	margin: 0;
+}
+
 li {
 	margin-top: 10px;
 	margin-bottom: 10px;

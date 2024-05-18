@@ -18,7 +18,7 @@ export default function UnknownRealm1() {
 						<td>Cache cube</td>
 					</tr>
 				</table>
-				<li>Battles</li>
+				<li>Encounters</li>
 				<table className="demontable">
 					<tr>
 						<th>Forced Battles</th>
@@ -27,16 +27,16 @@ export default function UnknownRealm1() {
 						<th>MP</th>
 					</tr>
 					<tr>
-						<td>Phantom</td>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>2x Will O&apos; Wisp</td>
+						<td>1</td>
+						<td>10</td>
+						<td>18</td>
 					</tr>
 					<tr>
-						<td>Kodama</td>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Preta</td>
+						<td>4</td>
+						<td>30</td>
+						<td>24</td>
 					</tr>
 				</table>
 				<li>Spirits</li>
@@ -56,8 +56,17 @@ export default function UnknownRealm1() {
 								<tr>
 									<td>First Encounter</td>
 									<td>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Obcaecati, dolor.
+										<table>
+											<tr>
+												<td>
+													By my master&apos;s orders, I&apos;ll treat your
+													wounds.
+												</td>
+											</tr>
+											<tr>
+												<td>&gt;You and your party were healed</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 							</table>

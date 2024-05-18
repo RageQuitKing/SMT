@@ -18,7 +18,7 @@ export default function UnknownRealm2() {
 						<td>Cache cube</td>
 					</tr>
 				</table>
-				<li>Battles</li>
+				<li>Encounters</li>
 				<table className="demontable">
 					<tr>
 						<th>Forced Battles</th>
@@ -26,17 +26,24 @@ export default function UnknownRealm2() {
 						<th>HP</th>
 						<th>MP</th>
 					</tr>
-					<tr>
-						<td>Phantom</td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
+					<tr className="combined">
 						<td>Kodama</td>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>3</td>
+						<td>20</td>
+						<td>24</td>
+					</tr>
+					<tr className="combined">
+						<td>Will O&apos; Wisp</td>
+						<td>1</td>
+						<td>10</td>
+						<td>18</td>
+					</tr>
+
+					<tr>
+						<td>2x Kodama</td>
+						<td>3</td>
+						<td>20</td>
+						<td>24</td>
 					</tr>
 				</table>
 			</ul>

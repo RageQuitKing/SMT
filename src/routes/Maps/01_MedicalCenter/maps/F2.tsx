@@ -26,7 +26,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(17);
 				}}
-				d=" M 401 165 l 0 75 l -15 0 l 0 -15 l -37 0 l 0 -15 l 37 0 l 0 -45 z"
+				d=" M 401 166 l 0 75 l -15 0 l 0 -15 l -37 0 l 0 -15 l 37 0 l 0 -45 z"
 				className="area"
 			/>
 			{/*Walkway*/}
@@ -34,7 +34,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(18);
 				}}
-				d="M 247 210 l 102 0 l 0 15 l -102 0 z"
+				d="M 248 211 l 100 0 l 0 15 l -100 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FHallwayOppositeBridge*/}
@@ -42,7 +42,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(16);
 				}}
-				d="M 451 165 l 0 75 l 15 0 l 0 -75 z"
+				d="M 451 166 l 0 75 l 15 0 l 0 -75 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FA203*/}
@@ -50,7 +50,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(14);
 				}}
-				d="M 306 120 l 30 0 l 0 30 l -30 0 z"
+				d="M 305 120 l 30 0 l 0 30 l -30 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FA204*/}
@@ -58,7 +58,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(15);
 				}}
-				d="M 306 105 l 30 0 l 0 -30 l -30 0 z"
+				d="M 305 105 l 30 0 l 0 -30 l -30 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FA201*/}
@@ -66,7 +66,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(12);
 				}}
-				d="M 516 105 l 30 0 l 0 -30 l -30 0 z"
+				d="M 517 105 l 30 0 l 0 -30 l -30 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FA202*/}
@@ -74,7 +74,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(13);
 				}}
-				d=" M 516 120 l 30 0 l 0 30 l -30 0 z"
+				d=" M 517 120 l 30 0 l 0 30 l -30 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FStairsEast*/}
@@ -82,7 +82,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(9);
 				}}
-				d="M 499 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
+				d="M 499 59 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
 				className="area"
 			/>
 			{/*MedicalCenter2FStairsWest*/}
@@ -90,7 +90,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(10);
 				}}
-				d="M 334 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
+				d="M 334 59 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
 				className="area"
 			/>
 			{/*Annex2FHallway*/}
@@ -106,7 +106,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(26);
 				}}
-				d="M 247 60 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
+				d="M 247 59 l 20 0 l 0 -10 l -10 0 l 0 -10 l -10 0 z"
 				className="area"
 			/>
 			{/*Annex2FB203*/}
@@ -114,7 +114,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(24);
 				}}
-				d="M 84 150 l -30 0 l 0 -30 l 30 0 z"
+				d="M 83 150 l -30 0 l 0 -30 l 30 0 z"
 				className="area"
 			/>
 			{/*Annex2FB204*/}
@@ -122,7 +122,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(25);
 				}}
-				d="M 84 105 l -30 0 l 0 -30 l 30 0 z"
+				d="M 83 105 l -30 0 l 0 -30 l 30 0 z"
 				className="area"
 			/>
 			{/*Annex2FB201*/}
@@ -130,7 +130,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(22);
 				}}
-				d="M 264 75 l 30 0 l 0 30 l -30 0 z"
+				d="M 265 75 l 30 0 l 0 30 l -30 0 z"
 				className="area"
 			/>
 			{/*Annex2FB202*/}
@@ -138,7 +138,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(23);
 				}}
-				d="M 264 120 l 30 0 l 0 30 l -30 0 z"
+				d="M 265 120 l 30 0 l 0 30 l -30 0 z"
 				className="area"
 			/>
 			{/*Annex2FHallwayOppositeBridge*/}
@@ -146,7 +146,7 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(21);
 				}}
-				d="M 149 165 l 0 75 l -15 0 l 0 -75 z"
+				d="M 149 166 l 0 75 l -15 0 l 0 -75 z"
 				className="area"
 			/>
 			{/*Annex2FHallwayToBridge*/}
@@ -154,25 +154,25 @@ export default function MedicalCenterF2({
 				onClick={() => {
 					setSelectedRoom(19);
 				}}
-				d="M 199 165 l 15 0 l 0 45 l 33 0 l 0 15 l -33 0 l 0 15 l -15 0 z"
+				d="M 199 166 l 15 0 l 0 45 l 33 0 l 0 15 l -33 0 l 0 15 l -15 0 z"
 				className="area"
 			/>
 			<path
 				d="M 416 113 
- m 83 -71 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0
- m -175 -6 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0
- m -97 -6 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0 m -10 2 l 10 0"
+ M 499.5 41 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0
+ M 334.5 41 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0
+ M 247.5 41 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0 m -9 2 l 9 0"
 				className="stairs"
 			/>
 			<path
 				d="
  M 420.5 136.75 l 11 0
 
- M 338 58.25 l 11 0
- m -11 3.5 l 11 0
+ M 338 57.25 l 11 0
+ m -11 4.5 l 11 0
 
- M 503 58.25 l 11 0
- m -11 3.5 l 11 0
+ M 503 57.25 l 11 0
+ m -11 4.5 l 11 0
 
  M 251 60 l 11 0
  M 84 85 l 0 11

@@ -28,45 +28,37 @@ export default function Annex1FLobby() {
 						<td>Cache cube</td>
 					</tr>
 				</table>
-				<li>Bosses</li>
+				<li>Encounters</li>
 				<table className="demontable">
 					<tr>
 						<th>Boss</th>
 						<th>Level</th>
 						<th>HP</th>
 						<th>MP</th>
-						<th>Quirks</th>
 					</tr>
 					<tr>
 						<td>Forneus</td>
 						<td>8</td>
 						<td>500</td>
 						<td>200</td>
-						<td>None</td>
 					</tr>
-				</table>
-				<li>Encounters</li>
-				<table className="demontable">
 					<tr>
 						<th>Demon</th>
 						<th>Level</th>
 						<th>HP</th>
 						<th>MP</th>
-						<th>Quirks</th>
 					</tr>
 					<tr>
 						<td>Hua Po</td>
 						<td>6</td>
 						<td>40</td>
 						<td>20</td>
-						<td>None</td>
 					</tr>
 					<tr>
 						<td>Shikigami</td>
 						<td>6</td>
 						<td>50</td>
 						<td>30</td>
-						<td>None</td>
 					</tr>
 				</table>
 			</ul>
