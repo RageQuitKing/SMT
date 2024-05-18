@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SMT/static/css/main.e028aacf.css",
+    "main.js": "/SMT/static/js/main.55fea2b0.js",
+    "index.html": "/SMT/index.html",
+    "main.e028aacf.css.map": "/SMT/static/css/main.e028aacf.css.map",
+    "main.55fea2b0.js.map": "/SMT/static/js/main.55fea2b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e028aacf.css",
+    "static/js/main.55fea2b0.js"
+  ]
+}
